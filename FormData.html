@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data</title>
+    <script>
+        //HTML form 태그의 데이터를 동적으로 제어
+        var formData = new FormData();
+        formData.append('name','zerocho');
+        formData.append('item','orange');
+        formData.append('item','melon');
+        formData.has('item');
+        formData.has('money');
+        formData.get('item');
+        formData.getAll('item');
+        formData.append('test',['hi','zero']);
+        formData.get('test');
+        formData.delete('test');
+        formData.get('test');
+        formData.set('item','apple');
+        formData.getAll('item');
+    </script>
+</head>
+<body>
+
+</body>
+</html>

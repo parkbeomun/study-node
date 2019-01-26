@@ -1,0 +1,11 @@
+데이터베이스
+
+1.  MySQL
+
+    콘솔접속
+    mysql -h localhost -u root -p
+
+    데이터베이스 생성
+    CREATE SCHEMA nodejs;
+    use nodejs;
+
