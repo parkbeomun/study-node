@@ -1,0 +1,5 @@
+flase
+1회성 메시지를 보여줄때 사용
+cookie-parser 와 express-session 을 사용하므로 이들보다 뒤에 위치해야 한다.
+
+
